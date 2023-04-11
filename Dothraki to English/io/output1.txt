@@ -1,0 +1,31 @@
+"achra" was added
+"adra" was added
+"gaezo" was added
+"kemak" was added
+"kem" was added
+"kemik" was added
+"gaezo" already exist
+"no record"
+"The English equivalent is turtle"
+"not enough Dothraki word"
+"incorrect Dothraki word"
+"The English equivalent is spouse"
+"The English equivalent is married"
+-a
+	-achra(smelly)
+	-adra(turtle)
+-gaezo(brother)
+-kem(married)
+	-kemak(spouse)
+	-kemik(ally)
+"not enough Dothraki word"
+"adra" deletion is successful
+"no record"
+"kem" deletion is successful
+"incorrect Dothraki word"
+"not enough Dothraki word"
+-achra(smelly)
+-gaezo(brother)
+-kem
+	-kemak(spouse)
+	-kemik(ally)
