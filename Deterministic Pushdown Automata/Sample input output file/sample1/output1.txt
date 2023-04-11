@@ -1,0 +1,15 @@
+q0,e,e => q1,$ [STACK]:$
+q1,{,e => q2,{ [STACK]:$,{
+q2,(,{ => q4,{ [STACK]:$,{
+q4,e,e => q2,( [STACK]:$,{,(
+q2,),( => q2,e [STACK]:$,{
+q2,},{ => q2,e [STACK]:$
+q2,e,$ => q1,$ [STACK]:$
+ACCEPT
+
+q0,e,e => q1,$ [STACK]:$
+q1,(,e => q2,( [STACK]:$,(
+q2,(,( => q4,( [STACK]:$,(
+q4,e,e => q2,( [STACK]:$,(,(
+REJECT
+

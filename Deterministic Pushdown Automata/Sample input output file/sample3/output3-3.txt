@@ -1,0 +1,15 @@
+state0,e,e => state1,$ [STACK]:$
+state1,{,e => state2,{ [STACK]:$,{
+state2,(,{ => state4,{ [STACK]:$,{
+state4,e,e => state2,( [STACK]:$,{,(
+state2,),( => state2,e [STACK]:$,{
+state2,},{ => state2,e [STACK]:$
+state2,e,$ => state1,$ [STACK]:$
+ACCEPT
+
+state0,e,e => state1,$ [STACK]:$
+state1,(,e => state2,( [STACK]:$,(
+state2,(,( => state4,( [STACK]:$,(
+state4,e,e => state2,( [STACK]:$,(,(
+REJECT
+

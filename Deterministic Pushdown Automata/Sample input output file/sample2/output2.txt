@@ -1,0 +1,24 @@
+q0,0,e => q1,a [STACK]:a
+q1,0,e => q1,a [STACK]:a,a
+q1,0,e => q1,a [STACK]:a,a,a
+q1,0,e => q1,a [STACK]:a,a,a,a
+q1,1,a => q2,e [STACK]:a,a,a
+q2,1,a => q2,e [STACK]:a,a
+q2,1,a => q2,e [STACK]:a
+q2,1,a => q2,e [STACK]:
+q2,e,e => q3,e [STACK]:
+ACCEPT
+
+q0,0,e => q1,a [STACK]:a
+q1,0,e => q1,a [STACK]:a,a
+q1,1,a => q2,e [STACK]:a
+q2,e,e => q3,e [STACK]:a
+REJECT
+
+ACCEPT
+
+q0,0,e => q1,a [STACK]:a
+q1,1,a => q2,e [STACK]:
+q2,e,e => q3,e [STACK]:
+ACCEPT
+
